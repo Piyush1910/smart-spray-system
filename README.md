@@ -13,3 +13,31 @@ IoT-based Smart Spray System using Python and Flask.
 - Flask
 - Matplotlib
 - Seaborn
+
+- ## Project Structure
+
+Smart-Spray-System/
+│
+├── app.py
+├── sensor.py
+├── requirements.txt
+└── README.md
+
+## How to Run
+
+1. Install dependencies
+
+pip install -r requirements.txt
+
+2. Run application
+
+python app.py
+
+## API Endpoint
+
+GET /sensor-data
+
+Returns:
+- Soil Moisture
+- Temperature
+- Humidity
